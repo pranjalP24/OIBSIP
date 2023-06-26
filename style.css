@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom right, #f9e6e6, #ffffcc);
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #work-experience,
+  #reviews {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  #reviews blockquote {
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
