@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elegenza - Beauty Products</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white; /* White background for the entire page */
+      font-family: Arial, sans-serif;
+    }
+    
+    .header {
+      background-image: linear-gradient(to right, #ff69b4, #ffff00); /* Gradient background */
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .header h2 {
+      font-family: 'Lobster', cursive;
+      background: -webkit-linear-gradient(#ff69b4, #ffff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      margin: 0;
+      padding: 20px;
+      font-style: italic; /* Italic font style */
+      font-weight: normal; /* Remove bold font weight */
+      color: black; /* Shiny black color */
+    }
+    
+    .navigation {
+      background-color: transparent;
+      padding: 10px;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      top: 10px;
+    }
+    
+    .navigation ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navigation ul li {
+      display: inline-block;
+      margin-left: 10px;
+    }
+    
+    .navigation ul li a {
+      text-decoration: none;
+      color: white; /* White navigation links */
+      font-family: 'Coronet', cursive;
+      font-size: 18px;
+    }
+    
+    .model-images {
+      text-align: center;
+      margin-top: 90px;
+    }
+    
+    .model-images img {
+      width: 130%; /* 30% larger than the actual size */
+      height: auto;
+      max-width: 100%;
+      display: inline-block; /* Display images side by side */
+      margin-right: 20px; /* Add some spacing between the images */
+    }
+    
+    .category {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      background-color: pink; /* Pink background for main content */
+    }
+    
+    .category-box {
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+    }
+    
+    .category-box img {
+      width: 130%; /* 30% larger than the actual size */
+      height: auto;
+      max-width: 100%;
+    }
+    
+    .category-box h4 {
+      font-family: 'Kingston', cursive;
+      color: pink;
+      font-size: 22px;
+    }
+    
+    .offers {
+      background-color: lightyellow; /* Light yellow background for offers */
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .offers a {
+      text-decoration: underline;
+      color: blue;
+    }
+    
+    .footer {
+      background-color: black; /* Black footer background */
+      color: white; /* Text in footer in white */
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h2>Elegenza</h2>
+  </div>
+  
+  <div class="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+  </div>
+  
+  <div class="model-images">
+    <img src="model1.jpg" alt="Model Image">
+    <img src="model2.jpg" alt="Model Image">
+  </div>
+  
+  <div class="category">
+    <div class="category-box">
+      <img src="lipstick.jpg" alt="Lipstick Category">
+      <h4>Lipsticks</h4>
+    </div>
+    
+    <div class="category-box">
+      <img src="kajal.jpg" alt="Kajal Category">
+      <h4>Kajal</h4>
+    </div>
+    
+    <div class="category-box">
+      <img src="bodycare.jpg" alt="Body Care Category">
+      <h4>Body Care</h4>
+    </div>
+    
+    <div class="category-box">
+      <img src="nailpaints.jpg" alt="Nail Paints Category">
+      <h4>Nail Paints</h4>
+    </div>
+  </div>
+  
+  <div class="offers">
+    <h2>Special Offers</h2>
+    <p>Check out our <a href="#">exciting offers</a> on lipsticks and kajal!</p>
+  </div>
+  
+  <div class="footer">
+    <p>Contact: info@elegenza.com | Customer Care: 123-456-7890</p>
+  </div>
+</body>
+</html>
